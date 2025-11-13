@@ -5,6 +5,7 @@ import {
 } from "react-router";
 import Practice1 from './Pages/Practice1';
 import PeopleDirectory from './components/assesment';
+import Pratcice2 from './Pages/Practice2';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path:"assesment-react",
     element:<PeopleDirectory/>
+  },
+  {
+    path:"practice2",
+    element:<Pratcice2/>
   }
 ])
 function App() {
