@@ -15,7 +15,7 @@ const[form,setForn]=useState({
     password:""
 })
 
-const handleChange(e){
+function handleChange(e){
     const{name,value}=e.target
     setForn(prev=>({...prev,[name]:value}))
 }
