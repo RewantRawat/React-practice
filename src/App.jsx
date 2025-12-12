@@ -6,6 +6,9 @@ import {
 import Practice1 from './Pages/Practice1';
 import PeopleDirectory from './components/assesment';
 import Pratcice2 from './Pages/Practice2';
+import HooksPractice from './Pages/HooksPractice';
+import Practice from './components/practice1';
+import ToggleExample from './components/toggle';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,17 @@ const router = createBrowserRouter([
   {
     path:"practice2",
     element:<Pratcice2/>
+  },
+  {
+    path:"hookspractice",
+    element:<HooksPractice/>
+  },
+  {
+   path:"practice",
+   element:<Practice/>
+  },{
+    path:"toggleexample",
+    element:<ToggleExample/>
   }
 ])
 function App() {
